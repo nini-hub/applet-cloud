@@ -1,1 +1,18 @@
 /* miniprogram/pages/detail/detail.wxss */
+.title-container {
+  text-align: center;
+  font: medium;
+  margin: 10px 0;
+}
+
+.list {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.list-baike {
+  margin-top: 5px;
+  text-indent: 2em;
+  color: darkgray;
+  margin-bottom: 10px;
+}

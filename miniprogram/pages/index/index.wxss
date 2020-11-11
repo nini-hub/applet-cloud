@@ -1,6 +1,18 @@
 .container{
   width: 100vw;
   height:100vh;
-  background-color: lightgreen ;
+  background-image: url('https://6e69-nini-2gjklubd18d68898-1304188765.tcb.qcloud.la/animal/1605076869492.jpg?sign=17feb5a7e573dd9aef438015997b2a10&t=1605076851') ;
   background-size: cover;
+  
+}
+
+.title-container {
+  margin: 20px;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: aliceblue;
 }

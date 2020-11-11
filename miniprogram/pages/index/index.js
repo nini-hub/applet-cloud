@@ -27,16 +27,16 @@ Page({
       success: function(res) {
         console.log(res)
         let filePath = res.tempFilePaths[0];
-        const cloudPath = `flower/${Date.now()}${filePath.match(/\.[^.]+?$/)}`
+        const cloudPath = `animal/${Date.now()}${filePath.match(/\.[^.]+?$/)}`
         console.log(cloudPath);
         wx.cloud.uploadFile({
           cloudPath,
           filePath,
-          success:ress=>{
-            console.log(ress)
+          success:res=>{
+            console.log(res)
 
             wx.navigateTo({
-              url: `../detail/detail?pic=${filePath}&&fileID=${ress.fileID}`
+              url: `../detail/detail?pic=${filePath}&&fileID=${res.fileID}`
             })
 
           }

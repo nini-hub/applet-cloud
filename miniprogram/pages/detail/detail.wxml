@@ -1,5 +1,11 @@
 <!--miniprogram/pages/detail/detail.wxml-->
 <view wx:if="{{imgUrl}}">
-
   <image src="{{imgUrl}}" mode="aspectFit"></image>
+</view>
+<view class="title-container">
+  <text class="title">识别结果</text>
+</view>
+  <view wx:for="{{result}}" class="list">
+    <view class="list-name">{{index+1}}.{{item.name}}（{{item.score}}）</view>
+    <view class="list-baike">百科信息：{{item.baike_info.description || '暂无'}}</view>
 </view>

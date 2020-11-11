@@ -1,12 +1,12 @@
 <view class="container">
   <view class="title-container">
-    <text class="title">识别植物</text>
+    <text class="title">猜猜我是个啥</text>
   </view>
   <view class="btns">
-    <button class="btn" type="primary" data-Index="0" bindtap="doUpload">
+    <button class="btn"  data-Index="0" bindtap="doUpload">
       拍摄
     </button>
-     <button class="btn" type="primary" data-Index="1" bindtap="doUpload">
+     <button class="btn" data-Index="1" bindtap="doUpload">
       本地相册
     </button>
   </view>

@@ -1,14 +1,13 @@
 // miniprogram/pages/detail/detail.js
 
-const db = wx.cloud.database();
-
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imgUrl:""
+    imgUrl:"",
+    result:[]
   },
 
   /**
@@ -27,14 +26,9 @@ Page({
       },
       success:res=>{
         console.log(res,"baidu")
-
-        db.collection("kaikeba").add({
-          data:{
-            name:"开课吧"
-          },
-          success:ret=>{
-            console.log(ret)
-          }
+        const {result:{info:{result}}} = res
+        this.setData({
+          result:result
         })
       }
     })
