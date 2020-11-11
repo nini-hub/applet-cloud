@@ -1,0 +1,5 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<view wx:if="{{imgUrl}}">
+
+  <image src="{{imgUrl}}" mode="aspectFit"></image>
+</view>
