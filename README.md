@@ -18,8 +18,6 @@
 
 + 首页
 
-  ![image](https://github.com/xxn-my/applet-cloud/raw/master/temp/result.png)
-
   ![首页](https://github.com/xxn-my/applet-cloud/raw/master/temp/home.jpg)
 
 + 美食新闻
