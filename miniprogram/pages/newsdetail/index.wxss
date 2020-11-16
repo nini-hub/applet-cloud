@@ -1,0 +1,29 @@
+/* miniprogram/pages/newsdetail/index.wxss */
+h3 {
+  font-size: 20px;
+  text-shadow: wheat 0.1em 0.1em 0.2em;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+image {
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+text:nth-child(3){
+  color: rgba(0, 0, 0, 0.8);
+  text-indent: 2em;
+  margin-top: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+text:nth-child(4){
+  text-align: right;
+  color: gainsboro;
+  padding: 5px;
+  box-sizing: border-box;
+}

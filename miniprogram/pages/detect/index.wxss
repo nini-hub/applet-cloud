@@ -1,0 +1,12 @@
+.container{
+  width: 100vw;
+  height:100vh;
+  background-image: url('https://6e69-nini-2gjklubd18d68898-1304188765.tcb.qcloud.la/animal/bgi.jpg?sign=7c718ddc70f6b69a6e228dbb0723d6c6&t=1605491422') ;
+  background-size: cover;
+  
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: aliceblue;
+}

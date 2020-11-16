@@ -1,0 +1,10 @@
+<!--miniprogram/pages/news.wxml-->
+<view wx:for="{{list}}" wx:key='id'>
+  <view class="card" data-Index='{{item.id}}' bindtap="gotodetail">
+    <image src='{{item.img}}'></image>
+    <view class="info">
+      <view>{{item.title}}</view>
+      <view>{{item.date}}</view>
+    </view>
+  </view>
+</view>

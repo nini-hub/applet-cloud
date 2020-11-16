@@ -1,0 +1,6 @@
+<!--miniprogram/pages/newsdetail/index.wxml-->
+<h3>{{detail.title}}</h3>
+<image src="{{detail.img}}"></image>
+<text>{{detail.description}}</text>
+<text>投稿日期：{{detail.date}}</text>
+

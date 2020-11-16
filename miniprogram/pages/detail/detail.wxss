@@ -16,3 +16,7 @@
   color: darkgray;
   margin-bottom: 10px;
 }
+
+.tar{
+  text-align: right;
+}

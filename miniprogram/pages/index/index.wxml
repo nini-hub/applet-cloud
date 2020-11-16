@@ -1,13 +1,61 @@
-<view class="container">
-  <view class="title-container">
-    <text class="title">猜猜我是个啥</text>
+
+      <swiper indicator-dots='true' class="swiper">
+        <swiper-item>
+          <image src='../../images/banner1.jpg'  style="width: {{imageWidth}}px;"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src='../../images/banner2.jpg' style="width: {{imageWidth}}px;"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src='../../images/banner3.jpg' style="width: {{imageWidth}}px;"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src='../../images/banner4.jpg' style="width: {{imageWidth}}px;"></image>
+        </swiper-item>
+      </swiper>
+      <h3>厨师风采</h3>
+<view class="brand">
+ 
+  <view class="card">
+    <image src='../../images/cook-head-1.png'></image>
+    <view>蔡某某</view>
+    <view>厨王争霸赛冠军</view>
   </view>
-  <view class="btns">
-    <button class="btn"  data-Index="0" bindtap="doUpload">
-      拍摄
-    </button>
-     <button class="btn" data-Index="1" bindtap="doUpload">
-      本地相册
-    </button>
+  <view class="card">
+    <image src='../../images/cook-head-2.png'></image>
+    <view>周某某</view>
+    <view>前三星米其林大厨</view>
+  </view>
+  <view class="card">
+    <image src='../../images/cook-head-3.png'></image>
+    <view>胡某某</view>
+    <view>国家金牌糕点师傅</view>
   </view>
 </view>
+
+<h3>本店优势</h3>
+<view class="strength">
+  <view class="card">
+    <image src='../../images/icon-chair.png'></image>
+    <view>环境舒适</view>
+    <view>店铺装修简约，给你舒适的用餐环境</view>
+  </view>
+  <view class="card">
+    <image src='../../images/icon-chef.png'></image>
+    <view>资深大厨</view>
+    <view>前三星米其林大厨，带给你味蕾享受</view>
+  </view>
+  <view class="card">
+    <image src='../../images/icon-tie.png'></image>
+    <view>服务周到</view>
+    <view>员工岗前培训，人人都是优秀服务员</view>
+    
+  </view>
+  <view class="card">
+    <image src='../../images/icon-tie-original.png'></image>
+    <view>主题文华</view>
+    <view>蕴涵丰富的主题文化特色，心灵共鸣</view>
+  </view>
+</view>
+
+

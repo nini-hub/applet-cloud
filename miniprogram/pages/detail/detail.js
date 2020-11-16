@@ -25,7 +25,6 @@ Page({
         fileID: fileID
       },
       success:res=>{
-        console.log(res,"baidu")
         const {result:{info:{result}}} = res
         this.setData({
           result:result

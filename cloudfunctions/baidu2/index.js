@@ -25,7 +25,7 @@ exports.main = async (event, context) => {
   const buffer = res.fileContent;
   let image = buffer.toString("base64");
 
-  const info = await client.animalDetect(image,{baike_num:5})
+  const info = await client.dishDetect(image,name,has_calorie,calorie,{baike_num:5})
 
   return {
     info

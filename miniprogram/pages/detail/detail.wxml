@@ -6,6 +6,8 @@
   <text class="title">识别结果</text>
 </view>
   <view wx:for="{{result}}" class="list">
-    <view class="list-name">{{index+1}}.{{item.name}}（{{item.score}}）</view>
+
+    <view class="list-name">{{index+1}}.{{item.name}}  {{item.probability}}</view>
     <view class="list-baike">百科信息：{{item.baike_info.description || '暂无'}}</view>
+    <view>卡路里：{{item.calorie}}</view>
 </view>
