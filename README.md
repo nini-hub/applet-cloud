@@ -18,19 +18,21 @@
 
 + 首页
 
-  ![首页]:(https://github.com/xxn-my/applet-cloud/raw/master/temp/home.png)
+  ![image](https://github.com/xxn-my/applet-cloud/raw/master/temp/result.png)
+
+  ![首页](https://github.com/xxn-my/applet-cloud/raw/master/temp/home.jpg)
 
 + 美食新闻
 
-  ![美食新闻]:(https://github.com/xxn-my/applet-cloud/raw/master/temp/news.png)
+  ![美食新闻](https://github.com/xxn-my/applet-cloud/raw/master/temp/news.jpg)
 
-  ![美食新闻详情]:(https://github.com/xxn-my/applet-cloud/raw/master/temp/newsdetail.png)
+  ![美食新闻详情](https://github.com/xxn-my/applet-cloud/raw/master/temp/newsdetail.jpg)
 
 + 菜品识别
 
-  ![菜品识别]:(https://github.com/xxn-my/applet-cloud/raw/master/temp/detect.png)
+  ![菜品识别](https://github.com/xxn-my/applet-cloud/raw/master/temp/detect.jpg)
 
-  ![菜品识别详情]:(https://github.com/xxn-my/applet-cloud/raw/master/temp/detectdetail.png)
+  ![菜品识别详情](https://github.com/xxn-my/applet-cloud/raw/master/temp/detectdetail.jpg)
 
 #### 参考文档
 
